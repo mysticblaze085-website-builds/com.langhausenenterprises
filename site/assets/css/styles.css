@@ -1,0 +1,255 @@
+  @import url('https://fonts.googleapis.com/css?family=Black+Ops+One|Bungee+Shade|Monoton|Rajdhani:700|Rubik:900');
+  .typeahead { border: 2px solid #FFF;border-radius: 4px;padding: 8px 12px;max-width: 100%;min-width: 98%;background: rgba(66, 52, 52, 0.5);color: #FFF;}
+  .tt-menu { width:100%; }
+  ul.typeahead{margin:0px;padding:10px 0px;}
+  ul.typeahead.dropdown-menu li a {padding: 10px !important;  border-bottom:#CCC 1px solid;color:#FFF;height: 100%; width: 100%;}
+  ul.typeahead.dropdown-menu li:last-child a { border-bottom:0px !important; }
+  .bgcolor {max-width: 550px;min-width: 290px;max-height:340px;background-color: #fff;padding: 100px 10px 130px;border-radius:4px;text-align:center;margin:10px;}
+  .demo-label {font-size:1.5em;color: #686868;font-weight: 500;color:#FFF;}
+  .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    text-decoration: none;
+    background-color: #1f3f41;
+    outline: 0;
+  } 
+
+  a {
+    color: #f1f1f1;
+  }
+
+  a:hover {
+    color: #ffc107!important;
+    text-decoration: none!important;
+  }
+
+  header {
+    height: auto;
+    padding: 5px 0;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: rgba(51,51,51,1);
+    color: #f1f1f1;
+    text-transform: uppercase;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  header .title {
+    padding-top: 10px;
+  }
+  
+  #jumbo {
+    padding: 3em 0em;
+    margin-bottom: 0;
+  }
+
+  #jumbo .title{
+    font-family: 'Bungee Shade', cursive;
+    text-shadow: 1px 1px 1px #000;
+  }
+
+  #jumbo .description {
+    font-family: 'Rubik', sans-serif;
+  }
+
+  #jumbo .nav {
+    font-family: 'Rajdhani', sans-serif;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.8vw;
+    border-top: 1px solid rgba(51,51,51,0.3);
+    border-bottom: 1px solid rgba(51,51,51,0.3);
+  }
+
+  #jumbo .nav .nav-item .nav-link {
+    margin-bottom: 0px!important;
+    color: rgba(51,51,51,1);
+  }
+
+  #jumbo .carousel {
+    margin: 1em 0em;
+    text-transform: uppercase;
+    font-family: 'Rajdhani', sans-serif;
+  }
+  #jumbo .carousel .carousel-caption {
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px 20px;
+    border-radius: 5px;
+    font-size: 4vh;
+  }
+  #services {
+    background-color: rgba(51,51,51,1);
+    padding: 3em 0em;
+    color: #f1f1f1;
+    height: auto;
+  }
+
+  #services .title {
+    font-family: 'Bungee Shade', cursive;
+    text-shadow: 1px 1px 2px #fff;
+  }
+
+  #services .content h4 {
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+  }
+
+  #services .content i {
+    font-size: 3vw;
+    margin: 5px 5px;
+    padding: 20px 20px;
+  }
+  #about .content {
+    margin: 5px 5px;
+    padding: 20px 20px;
+  }
+  #about {
+    padding: 3em 0em;
+    height: auto;
+  }
+  #about .title {
+    font-family: 'Bungee Shade', cursive;
+    text-shadow: 1px 1px 2px #fff;
+  }
+  #testimonials {
+    background-color: rgba(51,51,51,1);
+    padding: 3em 0em;
+    color: #f1f1f1;
+    height: auto;
+  }
+  #testimonials .content {
+    margin: 5px 5px;
+    padding: 20px 20px;
+  }
+  #testimonials .title {
+    font-family: 'Bungee Shade', cursive;
+    text-shadow: 1px 1px 2px #fff;
+    text-align: center;
+  }
+
+  #testimonials .author {
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  #contact {
+    padding: 3em 0em;
+    height: auto;
+  }
+  #contact .title {
+    font-family: 'Bungee Shade', cursive;
+    text-shadow: 1px 1px 2px #fff;
+  }
+  #contact .content {
+    margin: 5px 5px;
+    padding: 20px 20px;
+  }
+  #cta_btn {
+    width: 100%;
+  }
+  #footer {
+    background-color: rgba(51,51,51,1);
+    padding: 1em 0em;
+    color: #f1f1f1;
+    height: auto;
+  }
+
+  #footer .content {
+    margin: 5px 5px;
+    padding: 20px 20px;
+  }
+
+  #footer .content .title {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+  }
+
+  #footer .content ul .nav-link{
+    padding-left: 5.5em;
+    color: #f1f1f1;
+  }
+  footer {
+    border-top: 1px solid #f1f1f1;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    background-color: rgba(51,51,51,1);
+    padding: 1em 0em;
+    color: #f1f1f1;
+    height: auto;
+  }
+
+  /* SMARTPHONES PORTRAIT */
+  @media only screen and (min-width: 300px) {
+
+    #jumbo .title{
+      font-size: 5vh;
+    }
+
+    #jumbo .nav {
+      font-size: 2vh;
+    }
+
+    #services .content {
+      text-align: center;
+    }
+
+    #services .content i {
+      font-size: 4vh;
+    }
+
+     #jumbo .carousel .carousel-caption {
+      font-size: 3vh;
+    }
+
+  }
+
+  /* SMARTPHONES LANDSCAPE */
+  @media only screen and (min-width: 480px) {
+
+
+  }
+
+  /* TABLETS PORTRAIT */
+  @media only screen and (min-width: 768px) {
+
+
+  }
+
+
+  /* TABLET LANDSCAPE / DESKTOP */
+  @media only screen and (min-width: 1024px) {
+
+
+  } 
+
+
+
+
+
+
+
